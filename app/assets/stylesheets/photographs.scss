@@ -1,0 +1,38 @@
+// Place all the styles related to the Photographs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.project-photograph {
+	background-color: #000;
+	color: #fff;
+}
+
+#bs-over .project-photograph i {
+	color:#fff;
+	font-size: 32px;
+	color: #dbdbdb;
+}
+
+#bs-over .project-photograph h2 {
+	display: inline-block;
+}
+
+#bs-over .project-photograph p {
+	display: inline-block;
+	float: right;
+}
+
+#bs-over .project-photograph a {
+	text-decoration: none;
+	color:#fff;
+	padding: 5px;
+}
+
+.photo span {
+	color: #888888;
+}
+
+.photo {
+	font-size: 16px;
+}

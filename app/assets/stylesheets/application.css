@@ -1,0 +1,195 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+#bs-over {
+	font-family: 'Lobster Two', cursive;
+	position: relative;
+  	overflow: scroll;
+}
+
+.menu {
+	background-color: #fff;
+	color: #000;
+	height: 100%;
+  	position: fixed;
+  	width: 220px;
+  	left:-220px;
+  	z-index: 1000;
+  	margin-left: 0px;
+  	padding-left: 0px;
+
+}
+
+.menu ul {
+	list-style-type: none;
+	margin-left: 25%;
+	padding-left: 0px;
+}
+
+#bs-over .menu li {
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 22px;
+	padding-right: 5px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#bs-over .menu #span a {
+	color: #888888;
+	border: none;
+}
+
+.icon-close {
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#icon-menu {
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.top-nav {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.top-nav h1 {
+	display: inline;
+	margin-left: 20px;
+	font-family: 'Damion', cursive;-
+}
+
+.top-nav ul {
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.top-nav li {
+	display: inline-block;
+	padding: 5px;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+#bs-over .top-nav a {
+	text-decoration: none;
+	color:#000;
+}
+
+#bs-over form input {
+	display: block;
+}
+
+#bs-over .btn-submit {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fff;
+	padding: 8px;
+	border: none;
+}
+
+#photo {
+	width: 400px;
+	height: 240px;
+}
+
+.app-nav {
+	padding: 10px;
+}
+
+.app-nav i{
+	font-size: 34px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	transition: border .3s;
+}
+
+.app-nav i:hover {
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+
+.clear-fix {
+	height:50px;
+}
+
+.footer {
+	height: 125px;
+	background-color: #000;
+	color: #fff;
+}
+
+.footer audio {
+	margin-top: 6%;
+}
+
+.footer ul {
+	margin-top: 5%;
+	text-decoration: none;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer li a {
+	color: #fff;
+}
+
+.footer i {
+	font-size: 28px;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.header h1 {
+		font-size: 28px;
+	}
+
+	.menu li a{
+		font-size: 18px;
+	}
+	
+	.header ul {
+		display: none;
+	}
+
+	.app-nav i {
+		font-size: 28px;
+	}
+
+	#bs-over .project-photograph i {
+		font-size: 28px;
+	}
+	#thumbs {
+		width: 100%;
+		height: 75%;
+	}
+
+	#photo {
+		width: 100%;
+		height: 75%;
+	}
+
+	}

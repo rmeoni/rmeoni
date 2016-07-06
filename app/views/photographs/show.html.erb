@@ -1,0 +1,20 @@
+<div class="project-photograph">
+	<div class="container">
+		<div class="app-nav">
+			<%= link_to root_path do %>
+				<i class="material-icons">chevron_left</i>
+			<% end %>
+		</div>
+		<div class="photo row">
+			<div class="col-md-10 col-md-offset-1 col-xs-12">
+				<img class="img-responsive" src="<%= @photograph.image %>">
+				<h2><%= @photograph.name %></h2>
+				<span>Iso:<%= @photograph.iso %> Exposure:<%= @photograph.exposure %></span>
+				<p>
+				<%= link_to " Next Photograph >", @photograph.next, :class => "pull-right" %> 
+				<%= link_to "< Previous Photograph", @photograph.prev, :class => "pull-right" %>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

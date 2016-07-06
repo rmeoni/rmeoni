@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rodrigo Meoni</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   	<!--font awesome-->
+  <script src="https://use.fontawesome.com/811422e9bc.js"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- google fonts -->
+       <link href="https://fonts.googleapis.com/css?family=Damion|Lobster+Two" rel="stylesheet"> 
+</head>
+<body id="bs-over">
+	<div class="menu">
+		<div class="icon-close">
+			<i class="material-icons">close</i>
+		</div>
+			<ul>
+				<li><%= link_to "Blanc et Noir", '/projects/1/'%></li>
+				<li><%= link_to "Couleur", '/projects/2'%></li>
+				<li><%= link_to "Contact", '/contact' %></li>
+				<% unless current_user %>
+				<li id="span"><%= link_to "Login", '/login' %></li>
+				<% end %>
+				<% if current_user %>
+				<li id="span"> <%=link_to 'Logout', logout_path, method: 'delete' %></li>
+				<% end %>
+			</ul>
+	</div>
+	<div class="header">
+		<div class="top-nav">
+			<i class="material-icons" id="icon-menu">menu</i>
+			<%= link_to root_path do %>
+			<h1>Rodrigo Meoni</h1>
+			<% end %>
+			<ul class="pull-right">
+				<li><%= link_to "Blanc et Noir", '/projects/1/'%></li>
+				<li><%= link_to "Couleur", '/projects/2'%></li>
+				<li><%= link_to "Contact", '/contact' %></li>
+			</ul>
+		</div>
+		<div class="main-nav">
+		</div>
+	</div>
+<%= yield %>
+
+<div class="footer">
+	<div class="container">
+		<ul class="pull-right">
+			<li><%= link_to 'https://www.facebook.com/rodrigo.manuel13', target: :_blank do %><i class="fa fa-facebook" aria-hidden="true"></i><% end %>
+</li>
+			<li><%= link_to 'https://www.instagram.com/rodrigomeono/', target: :_blank do %><i class="fa fa-instagram" aria-hidden="true"></i><% end %>
+</li>
+			<li><%= link_to 'mailto:rodrigo.me13@gmail.com?Subject=Hello' do %><i class="fa fa-envelope-o" aria-hidden="true"></i><% end %> </li>
+		</ul>
+	</div>
+</div>
+<!-- Latest compiled and minified JavaScript for bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- mobile nav bar -->
+	<script type="text/javascript">
+	
+	var main = function() {
+
+	
+    $('.dropdown-toggle').dropdown();	
+
+	/* Push the body and the nav over by 480px over */
+  $('#icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "220px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-220px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+
+});
+
+};
+$(document).ready(main);
+
+	</script>
+</body>
+</html>
