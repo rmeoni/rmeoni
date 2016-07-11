@@ -76,7 +76,7 @@
 .top-nav h1 {
 	display: inline;
 	margin-left: 20px;
-	font-family: 'Damion', cursive;-
+	font-family: 'Damion';
 }
 
 .top-nav ul {
@@ -137,10 +137,6 @@
 	height: 125px;
 	background-color: #000;
 	color: #fff;
-}
-
-.footer audio {
-	margin-top: 6%;
 }
 
 .footer ul {
