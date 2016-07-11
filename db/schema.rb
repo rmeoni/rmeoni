@@ -13,16 +13,8 @@
 
 ActiveRecord::Schema.define(version: 20160705220710) do
 
-  create_table "photographies", force: :cascade do |t|
-    t.string   "name"
-    t.string   "image"
-    t.string   "exposure"
-    t.string   "iso"
-    t.integer  "project_id"
-    t.string   "attachment"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "photographs", force: :cascade do |t|
     t.string   "name"
