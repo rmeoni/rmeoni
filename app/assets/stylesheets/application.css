@@ -14,7 +14,7 @@
  *= require_self
  */
 #bs-over {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Lobster Two';
 	position: relative;
   	overflow: scroll;
 }
