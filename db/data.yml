@@ -1,0 +1,301 @@
+
+---
+projects:
+  columns:
+  - id
+  - image
+  - name
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - /images/blancnoir/canoe.jpg
+    - blancnoir
+    - black and white collection
+    - '2016-07-03 20:07:20.702979'
+    - '2016-07-03 20:07:20.702979'
+  - - 2
+    - /images/color/sunset-flores-2.jpg
+    - Couleur
+    - A colorfull collection
+    - '2016-07-03 22:53:22.297306'
+    - '2016-07-03 22:53:22.297306'
+
+---
+photographs:
+  columns:
+  - id
+  - name
+  - image
+  - exposure
+  - iso
+  - project_id
+  - attachment
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - searching
+    - /images/blancnoir/searching.jpg
+    - 1/60
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 20:07:20.721203'
+    - '2016-07-03 20:07:20.721203'
+  - - 2
+    - wait for it
+    - /images/blancnoir/explosion.jpg
+    - 1/60
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 21:18:18.946261'
+    - '2016-07-03 21:18:18.946261'
+  - - 3
+    - docked
+    - /images/blancnoir/canoe.jpg
+    - 1/500
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 21:24:52.854170'
+    - '2016-07-03 21:24:52.854170'
+  - - 5
+    - bliss
+    - /images/blancnoir/bliss.jpg
+    - 1/200
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 21:54:32.943567'
+    - '2016-07-03 21:54:32.943567'
+  - - 6
+    - leap of faith
+    - /images/blancnoir/leap.jpg
+    - 1/80
+    - '300'
+    - 1
+    - 
+    - '2016-07-03 22:00:20.160701'
+    - '2016-07-03 22:00:20.160701'
+  - - 7
+    - splash
+    - /images/blancnoir/splash.jpg
+    - 1/160
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:02:11.945118'
+    - '2016-07-03 22:02:11.945118'
+  - - 8
+    - begining of the end
+    - /images/blancnoir/begin.jpg
+    - 1/320
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:03:47.382342'
+    - '2016-07-03 22:03:47.382342'
+  - - 9
+    - nutella
+    - /images/blancnoir/nutella.jpg
+    - 1/320
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:05:51.945625'
+    - '2016-07-03 22:05:51.945625'
+  - - 10
+    - pureness
+    - /images/blancnoir/pure.jpg
+    - 1/100
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:07:23.382930'
+    - '2016-07-03 22:07:23.382930'
+  - - 11
+    - come with me
+    - /images/blancnoir/dare.jpg
+    - 1/40
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:10:09.140829'
+    - '2016-07-03 22:10:09.140829'
+  - - 12
+    - proofreading
+    - /images/blancnoir/proofreading.jpg
+    - 1/320
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:24:41.319550'
+    - '2016-07-03 22:24:41.319550'
+  - - 13
+    - le aviron
+    - /images/blancnoir/row.jpg
+    - 1/250
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:27:39.770035'
+    - '2016-07-03 22:27:39.770035'
+  - - 14
+    - the bird
+    - /images/blancnoir/bird.jpg
+    - 1/320
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:29:49.030005'
+    - '2016-07-03 22:29:49.030005'
+  - - 15
+    - surfing bird
+    - /images/blancnoir/surf-bird.jpg
+    - 1/60
+    - '100'
+    - 1
+    - 
+    - '2016-07-03 22:32:35.249642'
+    - '2016-07-03 22:32:35.249642'
+  - - 16
+    - time (it's not mine)
+    - /images/blancnoir/time.jpg
+    - 1/100
+    - '200'
+    - 1
+    - 
+    - '2016-07-03 22:33:53.798632'
+    - '2016-07-03 22:33:53.798632'
+  - - 17
+    - Sunset in Flores
+    - /images/color/sunset-flores-2.jpg
+    - 1/100
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:04:18.849626'
+    - '2016-07-05 23:06:15.755999'
+  - - 18
+    - Sunset in Flores
+    - /images/color/sunset-flores.jpg
+    - 1/160
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:07:35.839002'
+    - '2016-07-05 20:33:20.689237'
+  - - 19
+    - Sunset in EL Remate
+    - /images/color/sunset-remate.jpg
+    - 1/200
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:08:36.580463'
+    - '2016-07-05 20:33:30.628104'
+  - - 20
+    - Sunset in Tikal
+    - /images/color/sunset-tikal.jpg
+    - 1/250
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:09:33.282338'
+    - '2016-07-05 20:33:41.234437'
+  - - 21
+    - Sunset in EL  Paredon
+    - /images/color/sunset-paredon.jpg
+    - 1/160
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:29:13.247903'
+    - '2016-07-05 20:33:51.876086'
+  - - 22
+    - Sunset in Miami
+    - /images/color/sunset-miami.jpg
+    - 1/80
+    - '200'
+    - 2
+    - 
+    - '2016-07-03 23:30:05.191625'
+    - '2016-07-05 20:34:02.879813'
+  - - 23
+    - Weedstrument
+    - /images/color/weedstrument.jpg
+    - 1/40
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:31:56.583244'
+    - '2016-07-05 20:34:16.409389'
+  - - 24
+    - high as a kite
+    - /images/color/kite.jpg
+    - 1/320
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:33:14.398145'
+    - '2016-07-03 23:33:14.398145'
+  - - 25
+    - lotus flower
+    - /images/color/lotus.jpg
+    - 1/200
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:43:24.411019'
+    - '2016-07-03 23:43:39.151008'
+  - - 26
+    - bottle half full
+    - /images/color/bottle.jpg
+    - 1/80
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:46:41.705885'
+    - '2016-07-03 23:46:52.587087'
+  - - 27
+    - let's go camping
+    - /images/color/camping.jpg
+    - 1/200
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:48:05.356581'
+    - '2016-07-03 23:48:05.356581'
+  - - 28
+    - watch your step
+    - /images/color/gator.jpg
+    - 1/100
+    - '100'
+    - 2
+    - 
+    - '2016-07-03 23:49:25.001077'
+    - '2016-07-03 23:50:07.798144'
+
+---
+users:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - email
+  - password_digest
+  - role
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - rodrigo
+    - meoño
+    - rodrigo.me13@gmail.com
+    - $2a$10$pM8W4FaBxKEFPXAG8t7TluIUSYtdUBRYpVvZSDQK1RnweqR/gmCx6
+    - admin
+    - '2016-07-05 22:59:27.728586'
+    - '2016-07-05 22:59:27.728586'

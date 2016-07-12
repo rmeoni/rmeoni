@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 #rails plugin for a database independent format 
 gem 'yaml_db'
+#puma web server
+gem 'puma'
 # Use postgres for production
 gem 'pg'
 # Use SCSS for stylesheets
