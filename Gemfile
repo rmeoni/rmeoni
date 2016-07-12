@@ -7,6 +7,8 @@ gem 'rails', '4.2.6'
 gem 'yaml_db'
 #puma web server
 gem 'puma'
+
+gem 'rails_12factor'
 # Use postgres for production
 gem 'pg'
 # Use SCSS for stylesheets
