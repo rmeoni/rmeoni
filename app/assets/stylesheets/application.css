@@ -194,5 +194,8 @@
 		width: 100%;
 		height: 75%;
 	}
+	#photo-in-project {
+		height: 400px;
+	}
 
 	}
