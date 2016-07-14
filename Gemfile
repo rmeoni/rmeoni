@@ -7,7 +7,16 @@ gem 'rails', '4.2.6'
 gem 'yaml_db'
 #puma web server
 gem 'puma'
+#debise
+gem 'devise'
 
+group :development, :test do
+gem 'foreman'
+end 
+#contact for with email
+gem 'mail_form'
+gem 'simple_form'
+#gem required by heroku
 gem 'rails_12factor'
 # Use postgres for production
 gem 'pg'

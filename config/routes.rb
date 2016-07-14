@@ -17,7 +17,9 @@ Rails.application.routes.draw do
   get '/photographs/:id/edit' => 'photographs#edit', as: :edit_photograph
   get '/photographs/:id' => 'photographs#show', as: :photograph
 
-  get '/contact' => 'pages#contact'
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+resources "contacts", only: [:new, :create]
+
 
   get '/signup' => 'users#new'
 
