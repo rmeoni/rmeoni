@@ -21,8 +21,8 @@
 
 
 .menu {
-	background-color: #fff;
-	color: #000;
+	background-color: #000;
+	color: #fff;
 	height: 100%;
   	position: fixed;
   	width: 220px;
@@ -50,7 +50,7 @@
 
 .menu li a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 
 #bs-over .menu #span a {
@@ -174,7 +174,7 @@
 }
 
 .footer ul {
-	margin-top: 7%;
+	margin-top: 60px;
 	margin-right: 0px;
 	right:0;
 	text-decoration: none;
@@ -235,6 +235,10 @@
 		margin-right: 5px;
 	}
 
+	.project-photograph {
+		height: 400px;
+	}
+
 	#bs-over .project-photograph i {
 		font-size: 28px;
 	}
@@ -265,7 +269,7 @@
 	}
 
 	#bs-over .project-photographs .col-xs-4 img {
-		width: 8em;
+		width: 7em;
 		height: 4em;
 	}
 
@@ -275,6 +279,7 @@
 
 	#photo-in-project {
 		height: 75%;
+		margin-left: 0px;
 	}
 
 	#form {
@@ -287,7 +292,6 @@
 
 	.footer i {
 	font-size: 32px;
-	margin-top: 50px;
 	padding: 5px;
 }
 
