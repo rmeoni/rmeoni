@@ -66,6 +66,7 @@
 #icon-menu {
 	cursor: pointer;
 	padding-left: 5px;
+	z-index: 1000;
 }
 
 .top-nav {
@@ -164,21 +165,28 @@
 	}
 
 	.menu li a{
-		font-size: 18px;
+		font-size: 24px;
 	}
 	
 	.header ul {
 		display: none;
 	}
 
-	#icon-menu {
-		font-size: 38px;
+	.top-nav h1 {
+		margin-left: 50px;
+	}
+
+	#bs-over #icon-menu {
+		font-size: 32px;
+		color: #000;
 		padding-left: 10px;
 		padding-top: 3px;
+		position: fixed;
+		z-index: 1000;
 	}
 
 	.icon-close i {
-		font-size: 38px;
+		font-size: 32px;
 	}
 	.app-nav i {
 		font-size: 28px;
@@ -201,7 +209,7 @@
 	}
 
 	.footer i {
-	font-size: 38px;
+	font-size: 32px;
 	margin-top: 50px;
 	padding: 5px;
 }
