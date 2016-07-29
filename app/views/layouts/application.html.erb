@@ -23,8 +23,9 @@
 			<i class="material-icons">close</i>
 		</div>
 			<ul>
-				<li><%= link_to "Blanc et Noir", '/projects/1/'%></li>
-				<li><%= link_to "Couleur", '/projects/2'%></li>
+				<li><%= link_to "Home", '/'%></li>
+				<li><%= link_to "Projects", '/'%></li>
+				<li><%= link_to "About", '/'%></li>
 				<li><%= link_to "Contact", '/contacts' %></li>
 				<% unless current_user %>
 				<li id="span"><%= link_to "Login", '/login' %></li>
@@ -41,9 +42,15 @@
 			<h1>Rodrigo Manuel</h1>
 			<% end %>
 			<ul class="pull-right">
-				<li><%= link_to "Blanc et Noir", '/projects/1/'%></li>
-				<li><%= link_to "Couleur", '/projects/2'%></li>
+				<li><%= link_to "Projects", '/'%></li>
+				<li><%= link_to "About", '/'%></li>
 				<li><%= link_to "Contact", '/contacts' %></li>
+				<% unless current_user %>
+				<li id="span"><%= link_to "Login", '/login' %></li>
+				<% end %>
+				<% if current_user %>
+				<li id="span"> <%=link_to 'Logout', logout_path, method: 'delete' %></li>
+				<% end %>
 			</ul>
 		</div>
 		<div class="main-nav">
@@ -92,6 +99,18 @@
     $('body').animate({
       left: "0px"
     }, 200);
+
+    $('.square').click(function(){
+    	$('#photograph').removeClass('col-md-4');
+    	$('#photograph').fadeIn('slow');
+    	$('#photograph').addClass('col-md-8');
+    });
+
+    $('.squares').click(function(){
+    	$('#photograph').removeClass('col-md-8');
+    	$('#photograph').fadeIn('slow');
+    	$('#photograph').addClass('col-md-4');
+    });
 
 });
 
