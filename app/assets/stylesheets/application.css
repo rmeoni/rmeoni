@@ -172,11 +172,13 @@
 	}
 
 	#icon-menu {
-		font-size: 30px;
+		font-size: 38px;
+		padding-left: 10px;
+		padding-top: 3px;
 	}
 
 	.icon-close i {
-		font-size: 30px;
+		font-size: 38px;
 	}
 	.app-nav i {
 		font-size: 28px;
@@ -197,5 +199,11 @@
 	#photo-in-project {
 		height: 400px;
 	}
+
+	.footer i {
+	font-size: 38px;
+	margin-top: 50px;
+	padding: 5px;
+}
 
 	}
