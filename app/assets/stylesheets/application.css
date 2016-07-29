@@ -273,6 +273,11 @@
 		height: 4em;
 	}
 
+	#bs-over .project-photographs .col-xs-12 img {
+		width: 100%;
+		height: 75%;
+	}
+
 	#bs-over .project-photographs span {
 		display: none;
 	}
