@@ -1,0 +1,424 @@
+/*To hide the nickname when sending a message*/
+/* line 7, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+.hidden {
+  display: none;
+}
+
+/* line 9, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form {
+  text-align: left;
+  position: relative;
+}
+
+/* line 14, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form h1 {
+  margin-top: 0px;
+}
+
+/* line 18, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form .form-horizontal input {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #CCCCCC;
+}
+
+/* line 24, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form textarea {
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+}
+
+/* line 29, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form textarea:focus {
+  border: 1px solid #78A7D8;
+}
+
+/* line 33, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form input:focus {
+  border: 1px solid #78A7D8;
+}
+
+/* line 37, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form label {
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* line 43, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form .btn-primary {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: 1px solid #000;
+  border-radius: 0px;
+  transition: background-color .4s;
+}
+
+/* line 52, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#form .btn-primary:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+/*flash*/
+/* line 59, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 66, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 73, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* line 80, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* line 87, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/contacts.scss */
+#create {
+  height: 600px;
+}
+/* line 6, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+.project-photograph {
+  background-color: #000;
+  color: #fff;
+}
+
+/* line 11, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+#bs-over .project-photograph i {
+  color: #fff;
+  font-size: 32px;
+  color: #dbdbdb;
+}
+
+/* line 17, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+#bs-over .project-photograph h2 {
+  display: inline-block;
+}
+
+/* line 21, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+#bs-over .project-photograph p {
+  display: inline-block;
+  float: right;
+}
+
+/* line 26, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+#bs-over .project-photograph a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+/* line 32, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+.photo span {
+  color: #888888;
+}
+
+/* line 36, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+.photo {
+  font-size: 16px;
+}
+
+/* line 40, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/photographs.scss */
+#photo-in-project {
+  margin-top: 40px;
+}
+/* line 5, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .material-icons {
+  color: #000;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+/* line 11, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .projects {
+  margin: 30px 15px 30px 15px;
+}
+
+/* line 16, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .projects .col-md-6 {
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+}
+
+/* line 22, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .projects #thumbs {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+}
+
+/* line 29, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .projects p {
+  font-size: 24px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/* line 35, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/projects.scss */
+#bs-over .projects .col-md-6 i {
+  margin-right: 5px;
+}
+/* line 5, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/users.scss */
+.login-form {
+  margin-top: 20px;
+}
+
+/* line 9, /Users/rodrigomanuel/RodrigoMeoniApp/app/assets/stylesheets/users.scss */
+.login-form input {
+  padding: 5px;
+  margin-top: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+#bs-over {
+	font-family: 'Lobster Two';
+	position: relative;
+  	overflow: scroll;
+}
+
+.menu {
+	background-color: #fff;
+	color: #000;
+	height: 100%;
+  	position: fixed;
+  	width: 220px;
+  	left:-220px;
+  	z-index: 1000;
+  	margin-left: 0px;
+  	padding-left: 0px;
+
+}
+
+.menu ul {
+	list-style-type: none;
+	margin-left: 25%;
+	padding-left: 0px;
+}
+
+#bs-over .menu li {
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 22px;
+	padding-right: 5px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#bs-over .menu #span a {
+	color: #888888;
+	border: none;
+}
+
+.icon-close i {
+	cursor: pointer;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 28px;
+}
+
+#icon-menu {
+	cursor: pointer;
+	padding-left: 10px;
+	margin-left: 5px;
+	font-size: 28px;
+	z-index: 1000;
+}
+
+.top-nav {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.top-nav h1 {
+	display: inline;
+	margin-left: 20px;
+	font-family: 'Damion';
+}
+
+.top-nav ul {
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.top-nav li {
+	display: inline-block;
+	padding: 5px;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+#bs-over .top-nav a {
+	text-decoration: none;
+	color:#000;
+}
+
+#bs-over form input {
+	display: block;
+}
+
+#bs-over .btn-submit {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fff;
+	padding: 8px;
+	border: none;
+}
+
+#photo {
+	width: 400px;
+	height: 240px;
+}
+
+.app-nav {
+	padding: 10px;
+}
+
+.app-nav i{
+	font-size: 34px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	transition: border .3s;
+}
+
+.app-nav i:hover {
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+
+.clear-fix {
+	height:50px;
+}
+
+.footer {
+	height: 125px;
+	background-color: #000;
+	color: #fff;
+	right:0;
+	margin-right: 0px;
+}
+
+.footer .container {
+	right:0;
+	margin-right: 0px;
+}
+
+.footer ul {
+	margin-top: 8%;
+	margin-right: 0px;
+	right:0;
+	text-decoration: none;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer li a {
+	color: #fff;
+}
+
+.footer i {
+	font-size: 32px;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.header h1 {
+		font-size: 36px;
+	}
+
+	.menu li a{
+		font-size: 24px;
+	}
+	
+	.header ul {
+		display: none;
+	}
+
+	.top-nav h1 {
+		margin-left: 50px;
+	}
+
+	#bs-over #icon-menu {
+		font-size: 32px;
+		color: #000;
+		padding-left: 5px;
+		padding-top: 3px;
+		position: fixed;
+		z-index: 1000;
+	}
+
+	.icon-close i {
+		font-size: 32px;
+	}
+	.app-nav i {
+		font-size: 28px;
+	}
+
+	#bs-over .project-photograph i {
+		font-size: 28px;
+	}
+	#thumbs {
+		width: 100%;
+		height: 75%;
+	}
+
+	#photo {
+		width: 100%;
+		height: 75%;
+	}
+	#photo-in-project {
+		height: 400px;
+	}
+
+	.footer i {
+	font-size: 32px;
+	margin-top: 50px;
+	padding: 5px;
+}
+
+	}
