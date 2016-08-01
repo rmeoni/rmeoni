@@ -18,6 +18,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body id="bs-over">
+	<div class="top" id="top">
+	</div>
 	<div class="menu">
 		<div class="icon-close">
 			<i class="material-icons">close</i>
@@ -37,10 +39,10 @@
 	</div>
 	<div class="header">
 		<div class="top-nav">
-			<i class="material-icons" id="icon-menu">menu</i>
 			<%= link_to root_path do %>
 			<h1>Rodrigo Manuel</h1>
 			<% end %>
+			<i class="material-icons" id="icon-menu">menu</i>
 			<ul class="pull-right">
 				<li><%= link_to "Projects", '/'%></li>
 				<li><%= link_to "About", '/about'%></li>
@@ -56,6 +58,13 @@
 		<div class="main-nav">
 		</div>
 	</div>
+
+	<!--email icon-->
+		<div class="email-button">
+			<div class="container">
+			<i class="material-icons md-36" id="email"><a href="#top">&nbsp;keyboard_arrow_up</a></i>
+			</div>
+		</div>
 <%= yield %>
 
 <div class="footer">
@@ -81,23 +90,26 @@
 
 	/* Push the body and the nav over by 480px over */
   $('#icon-menu').click(function() {
+  	$('#icon-menu').css('background-color','#000');
     $('.menu').animate({
-      left: "0px"
+      right: "0px"
     }, 200);
 
     $('body').animate({
-      left: "220px"
+      right: "220px"
     }, 200);
+
   });
 
   /* Then push them back */
   $('.icon-close').click(function() {
+  	$('#icon-menu').css('background-color', '#fff');
     $('.menu').animate({
-      left: "-220px"
+      right: "-220px"
     }, 200);
 
     $('body').animate({
-      left: "0px"
+      right: "0px"
     }, 200);
 
 });
