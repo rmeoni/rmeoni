@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get '/' => 'projects#index', as: :root
+  get '/projects/:id/edit' => 'projects#edit', as: :edit_project
   get '/projects' => 'projects#index'
   post '/projects' => 'projects#create'
   get '/projects/new' => 'projects#new', as: :new_project
@@ -8,6 +9,7 @@ Rails.application.routes.draw do
   get '/projects/:id/new' => 'photographs#new', as: :photo_in_project
   post '/projects/:id/new' => 'photographs#create'
   get '/projects/:id' => 'projects#show', as: :project
+  patch '/projects/:id' => 'projects#update'
 
   get '/photographs' => 'photographs#index'
   post '/photographs' => 'photographs#create'

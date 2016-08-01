@@ -14,6 +14,11 @@
 				<% end %>
 				<div class="project-name">
 				<p><%= p.name %></p> 
+				<% if current_user %>
+					<%= link_to edit_project_path(p) do %>
+					<i class="material-icons">edit_mode</i>
+					<% end %>
+				<% end %>
 				</div>
 			</div>
 			<% end %>
