@@ -103,7 +103,7 @@
 #bs-over .top-nav a {
 	text-decoration: none;
 	color:#000;
-	transition: color .5s;
+	transition: color .2s;
 }
 
 #bs-over .top-nav a:hover {
@@ -120,7 +120,7 @@
 	border-radius: 0px;
 	color: #fff;
 	padding: 12px;
-	transition: background-color .3s;
+	transition: background-color .2s;
 }
 
 #bs-over .btn:hover{
@@ -145,7 +145,7 @@
 	height: 210px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
+	-webkit-transition: .1s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
@@ -180,7 +180,7 @@
 	font-size: 34px;
 	border: 2px solid #fff;
 	border-radius: 50%;
-	transition: border .3s;
+	transition: border .2s;
 }
 
 .app-nav i:hover {
@@ -223,7 +223,7 @@
 .footer i {
 	font-size: 32px;
 	padding: 5px;
-	transition: color .4s;
+	transition: color .2s;
 }
 
 .footer i:hover {
