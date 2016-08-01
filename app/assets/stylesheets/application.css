@@ -146,7 +146,7 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .1s ease-in-out;
-	transition: .3s ease-in-out;
+	transition: .1s ease-in-out;
 }
 
 #bs-over .project-photographs .col-md-4 img:hover {
