@@ -130,6 +130,9 @@
 
 /*email icon*/
 
+#bs-over .email-button {
+	display: none;
+}
 #email {
 	background-color: #000;
     background-position: 100% left;
@@ -384,6 +387,11 @@
 
 	#email {
 		right: 80%;
+		display: inline-block;
+	}
+
+	#bs-over .email-button {
+		display: inline-block;
 	}
 
 	.footer i {
