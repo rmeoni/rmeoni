@@ -27,6 +27,7 @@ resources "contacts", only: [:new, :create]
   post '/login' => 'sessions#create'
   delete '/logout' => 'sessions#destroy', as: :logout
 
+  get '/about' => 'pages#about'
 
 
   resources :photographs, only: [:destroy]

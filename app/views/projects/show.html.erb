@@ -33,9 +33,14 @@
 			</div>
 			<% end %>
 		</div>
+		<div class="app-nav pull-right">
+	<ul>
+		<li><%= link_to "< Previous Project", @project.prev %></li>
+		<li><%= link_to "Next Project >", @project.next %></li>
+	</ul>
+</div>
 	</div>
 </div>
- <embed src="/tycho_dive.mp3" autostart="true" loop="true" hidden="true"><embed>
 <div class="clear-fix">
 </div>
 <script type="text/javascript">
@@ -70,3 +75,4 @@
 $(document).ready(main);
 
 	</script>
+<embed src="/tycho_dive.mp3" autostart="true" loop="true" hidden="true"><embed>
