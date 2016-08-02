@@ -174,7 +174,7 @@
 
 .project-photographs {
 	position: relative;
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 .project-photographs .col-md-4 {
@@ -349,9 +349,11 @@
 	#bs-over .projects  {
 		height: auto;
 		margin-bottom: 20px;
+		padding: 0px 10px 0px 0px;
+		margin-top: 0px;
 }
 	.project-photographs .container {
-	margin: 5px;
+		margin: 5px;
 }
 	#bs-over .projects .col-md-6  {
 		width: 100%;
@@ -384,6 +386,11 @@
 	#bs-over .project-photographs span {
 		display: none;
 	}
+
+	.project-photographs {
+	margin-top: 35px;
+}
+
 
 	#photo-in-project {
 		height: 75%;
