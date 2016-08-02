@@ -39,12 +39,11 @@
 	</div>
 	<div class="header">
 		<div class="top-nav">
-			<div class="top-header">
+			<div class="mobile-nav">
 			<%= link_to root_path do %>
 			<h1>Rodrigo Manuel</h1>
 			<% end %>
-			<i class="material-icons" id="icon-menu">menu</i>
-		</div>
+			</div>
 			<ul class="pull-right">
 				<li><%= link_to "Projects", '/'%></li>
 				<li><%= link_to "About", '/about'%></li>
@@ -56,6 +55,7 @@
 				<li id="span"> <%=link_to 'Logout', logout_path, method: 'delete' %></li>
 				<% end %>
 			</ul>
+			<i class="material-icons" id="icon-menu">menu</i>
 		</div>
 		<div class="main-nav">
 		</div>

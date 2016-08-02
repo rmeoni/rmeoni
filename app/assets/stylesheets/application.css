@@ -108,6 +108,11 @@
 #bs-over .top-nav a:hover {
 	color: #888;
 }
+
+.mobile-nav {
+	display: inline-block;
+}
+
 #bs-over form input {
 	display: block;
 }
@@ -150,8 +155,6 @@
     z-index: 1000;
     box-shadow: 0 3px 4px rgba(0,0,0,.4);
     padding-top:8px;
-
-
 
 }
 
@@ -287,7 +290,8 @@
 
 	.header h1 {
 		font-size: 36px;
-	}
+		float: 0;
+	}	
 
 	.menu li a{
 		font-size: 24px;
@@ -295,10 +299,6 @@
 	
 	.header ul {
 		display: none;
-	}
-
-	.top-header {
-		left: 60%;
 	}
 
 	#bs-over #icon-menu {
@@ -309,8 +309,19 @@
 		margin-right: 0px;
 		position: fixed;
 		z-index: 1000;
-		display: inline-block;
+		display: block;
 		float: right;
+		margin-top: 0px;
+		top: 5px;
+		right: 20px;
+	}
+
+	.top-nav h1 {
+		margin-left: 10px;
+	}
+
+	.mobile-nav {
+		text-align: right;
 	}
 
 	.icon-close i {
@@ -328,7 +339,7 @@
 	}
 
 	#bs-over .project-photograph {
-		height:25em;
+		height:30em;
 	}
 
 	#bs-over .project-photograph i {
@@ -366,7 +377,7 @@
 	}
 
 	#bs-over .project-photographs .col-xs-12 img {
-		width: 22em;
+		width: 21em;
 		height: 12em;
 	}
 
