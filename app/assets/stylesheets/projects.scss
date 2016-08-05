@@ -108,3 +108,7 @@
 #bs-over .projects .col-md-6 i {
 	margin-right: 5px;
 }
+
+#bs-over .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+	max-width: 120%;
+}
