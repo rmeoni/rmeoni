@@ -16,7 +16,7 @@
 		<% end %>
 		<div class="photo row">
 			<% @photographs.each do |p| %>
-			<div class="pic col-md-4 col-xs-4">
+			<div class="pic col-md-10 col-md-offset-1 col-xs-10">
 				<%= link_to photograph_path(p), :class => "pull-right" do %>
 					<img class="img-responsive" id="photo" src="<%= p.image %>">
 				<% end %>
@@ -50,11 +50,11 @@
 		$('.square').click(function(){
     	$('.pic').removeClass('col-md-4');
     	$('.pic').fadeIn('slow');
-    	$('.pic').addClass('col-md-8 col-md-offset-2');
+    	$('.pic').addClass('col-md-10 col-md-offset-1');
     });
 
     $('.squares').click(function(){
-    	$('.pic').removeClass('col-md-8 col-md-offset-2');
+    	$('.pic').removeClass('col-md-10 col-md-offset-1');
     	$('.pic').fadeIn('slow');
     	$('.pic').addClass('col-md-4');
     });
