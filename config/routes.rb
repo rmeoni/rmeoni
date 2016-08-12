@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   post '/projects/:id/new' => 'photographs#create'
   get '/projects/:id' => 'projects#show', as: :project
   patch '/projects/:id' => 'projects#update'
-  get '/hiatus' => 'projects/4'
 
   get '/photographs' => 'photographs#index'
   post '/photographs' => 'photographs#create'
