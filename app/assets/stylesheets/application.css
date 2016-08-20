@@ -197,21 +197,21 @@
 	transform: scale(0.9);
 }
 
-.app-nav {
+#bs-over .app-nav {
 	padding: 10px;
 }
 
-.app-nav ul {
+#bs-over .app-nav ul {
 	text-decoration: none;
 	list-style-type: none;
 }
 
-.app-nav li {
+#bs-over .app-nav li {
 	display: inline-block;
 	text-decoration: none;
 }
 
-.app-nav li a {
+#bs-over .app-nav li a {
 	color: #888;
 	display: inline-block;
 	text-decoration: none;
@@ -219,14 +219,15 @@
 	font-size: 16px;
 }
 
-.app-nav i{
+#bs-over .app-nav i{
 	font-size: 34px;
 	border: 2px solid #fff;
 	border-radius: 50%;
+	color: #333;
 	transition: border .2s;
 }
 
-.app-nav i:hover {
+#bs-over .app-nav i:hover {
 	border: 2px solid #000;
 	border-radius: 50%;
 }
