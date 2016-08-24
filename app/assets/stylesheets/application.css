@@ -374,6 +374,10 @@
 		padding-right: 1px;
 	}
 
+	#bs-over .project-photographs .container {
+		padding: 10px;
+	}	
+
 	#bs-over .project-photographs .col-xs-4 img {
 		width: 7em;
 		height: 4em;
@@ -386,6 +390,10 @@
 	#bs-over .project-photographs .col-xs-12 img {
 		width: 100%;
 		height: 75%;
+		padding-left: 0px;
+		padding-right: 0px;
+		left: 0;
+		right: 0;
 	}
 
 	#bs-over .project-photographs span {
