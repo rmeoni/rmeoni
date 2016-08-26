@@ -199,7 +199,7 @@
 }
 
 .app-nav {
-	padding: 10px;
+	padding: 8px;
 }
 
 .app-nav ul {
@@ -220,8 +220,8 @@
 	font-size: 16px;
 }
 
-.app-nav i{
-	font-size: 34px;
+#bs-over .app-nav i {
+	font-size: 40px;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	transition: border .2s;
@@ -230,6 +230,10 @@
 .app-nav i:hover {
 	border: 2px solid #000;
 	border-radius: 50%;
+}
+
+#bs-over .app-nav p {
+	font-size: 1.2em;
 }
 
 .clear-fix {
@@ -329,7 +333,7 @@
 		font-size: 32px;
 	}
 	.app-nav i {
-		font-size: 28px;
+		font-size: 38px;
 		color: #333;
 	}
 
@@ -345,7 +349,7 @@
 	}
 
 	#bs-over .project-photograph i {
-		font-size: 28px;
+		font-size: 38px;
 	}
 
 	#bs-over .projects  {
