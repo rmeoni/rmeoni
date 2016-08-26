@@ -151,7 +151,7 @@
     height: 56px;
     position: fixed;
     right: 95%;
-    width: 56px;
+    width: 58px;
     z-index: 1000;
     box-shadow: 0 3px 4px rgba(0,0,0,.4);
     padding-top:8px;
@@ -161,6 +161,7 @@
 #bs-over .email-button i {
 	padding-left: 0px;
 	margin-left: 0px;
+
 	
 }
 
