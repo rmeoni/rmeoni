@@ -1,0 +1,19 @@
+<div class="photo-form">
+	<div class="container">
+		<div class="app-nav">
+		<%= link_to :back do %>
+				<i class="material-icons">chevron_left</i>
+			<% end %>
+		</div>
+		<h2>Edit Project</h2>
+		<%= form_for(@project) do |p|%>
+			<%= label_tag("Image") %>
+			<%= p.text_field :image, :placeholder => 'image url' %>
+			<%= label_tag("Name") %>
+			<%= p.text_field :name, :placeholder => 'photography name' %>
+			<%= p.submit 'Update', :class => 'btn'%>
+		<% end %>
+	</div>
+</div>
+<div class="clear-fix">
+</div>
