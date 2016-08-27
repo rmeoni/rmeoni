@@ -20,8 +20,8 @@
 				<%= link_to photograph_path(p), :class => "pull-right" do %>
 					<img class="img-responsive" id="photo" src="<%= p.image %>">
 				<% end %>
-				'<%= p.name %>' 
-				<span>Iso:<%= p.iso %> Exposure:<%= p.exposure %></span>
+				<p>'<%= p.name %>' 
+				<span>Iso:<%= p.iso %> Exposure:<%= p.exposure %></span></p>
 				<% if current_user %>
 				<%= link_to edit_photograph_path(p), :class => "pull-right" do %>
 					<i class="material-icons">mode_edit</i>

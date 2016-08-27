@@ -4,7 +4,7 @@
 			<% @photographs.each do |p| %>
 			<div class="col-md-4 col-xs-12">
 				<img class="img-responsive" id="photo" src="<%= p.image %>">
-				'<%= p.name %>' 
+				<p>'<%= p.name %>'</p> 
 				<span>Iso:<%= p.iso %> Exposure:<%= p.exposure %></span>
 				<%= link_to photograph_path(p), :class => "pull-right", method: "delete", data: {confirm: "Are you sure you want to delete this?"} do %>
 				<i class="material-icons">delete_forever</i>
