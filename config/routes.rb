@@ -17,7 +17,11 @@ Rails.application.routes.draw do
   patch '/photographs/:id' => 'photographs#update'
   get '/photograpsh/new' => 'photographs#new'
   get '/photographs/:id/edit' => 'photographs#edit', as: :edit_photograph
-  get '/photographs/:id' => 'photographs#show', as: :photograph
+  get '/photographs/:id' => 'photographs#show', as: :photograph 
+
+  get '/videos/:id/edit' => 'videos#edit', as: :edit_video
+  get '/videos/:id' => 'videos#show', as: :video
+  get '/videos' => 'videos#index'
 
   match '/contacts',     to: 'contacts#new',             via: 'get'
 resources "contacts", only: [:new, :create]
