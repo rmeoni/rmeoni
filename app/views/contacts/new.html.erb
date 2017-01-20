@@ -1,22 +1,23 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4 col-md-offset-1" id="form">
+    <div class="col-md-10 col-md-offset-1" id="form">
       <h1>Send me a message</h1>
+        <!-- BEGIN Podio web form -->
+<script src="https://podio.com/webforms/17663705/1187255.js"></script>
+<script type="text/javascript">
+  _podioWebForm.render("1187255")
+</script>
+<noscript>
+  <a href="https://podio.com/webforms/17663705/1187255" target="_blank">Please fill out the form</a>
+</noscript>
+  <div class="podio-webform-container">
+  Get your <a href="https://podio.com" class="podio-webform-inner" rel="nofollow">free webform</a> from Podio
+  </div>
+<!-- END Podio web form -->
 
-      <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-      <%= f.input :name, :required => true %>
-      <%= f.input :email, :required => true %>
-      <%= f.input :message, :as => :text, :required => true %>
-      <div class= "hidden">
-        <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-      </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn" %>
+
     </div>
-  <% end %>
-    </div>
-    <div class="col-md-4 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1">
       <div class="clear-fix">
       </div>
       <img class="img-responsive" src="/images/me.jpg">
