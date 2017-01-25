@@ -28,6 +28,7 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '970327136433719'); // Insert your pixel ID here.
 fbq('track', 'PageView');
+fbq('track', 'ViewContent');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=970327136433719&ev=PageView&noscript=1"
@@ -44,7 +45,7 @@ src="https://www.facebook.com/tr?id=970327136433719&ev=PageView&noscript=1"
 		</div>
 			<ul>
 				<li><%= link_to "Home", '/'%></li>
-				<li><%= link_to "Photography", '/'%></li>
+				<li><%= link_to "Photography", '/projects'%></li>
 				<li><%= link_to "Video", '/videos'%></li>
 				<li><%= link_to "About", '/about'%></li>
 				<li><%= link_to "Contact", '/contacts' %></li>
@@ -64,7 +65,7 @@ src="https://www.facebook.com/tr?id=970327136433719&ev=PageView&noscript=1"
 			<% end %>
 			</div>
 			<ul class="pull-right">
-				<li><%= link_to "Photography", '/'%></li>
+				<li><%= link_to "Photography", '/projects'%></li>
 				<li><%= link_to "Video", '/videos'%></li>
 				<li><%= link_to "About", '/about'%></li>
 				<li><%= link_to "Contact", '/contacts' %></li>
@@ -92,9 +93,9 @@ src="https://www.facebook.com/tr?id=970327136433719&ev=PageView&noscript=1"
 <div class="footer">
 	<div class="container">
 		<ul class="pull-right">
-			<li><%= link_to 'https://www.facebook.com/rodrigo.manuel13', target: :_blank do %><i class="fa fa-facebook" aria-hidden="true"></i><% end %>
+			<li><%= link_to 'https://www.facebook.com/rodrigomeonofoto', target: :_blank do %><i class="fa fa-facebook" aria-hidden="true"></i><% end %>
 </li>
-			<li><%= link_to 'https://www.instagram.com/rodrigomanuel_x/', target: :_blank do %><i class="fa fa-instagram" aria-hidden="true"></i><% end %>
+			<li><%= link_to 'https://www.instagram.com/rodrigomeono/', target: :_blank do %><i class="fa fa-instagram" aria-hidden="true"></i><% end %>
 </li>
 			<li><%= link_to 'mailto:rodrigo.me13@gmail.com?Subject=Hello' do %><i class="fa fa-envelope-o" aria-hidden="true"></i><% end %> </li>
 		</ul>

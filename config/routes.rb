@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/' => 'projects#index', as: :root
+  get '/' => 'pages#home', as: :root
   get '/projects/:id/edit' => 'projects#edit', as: :edit_project
   get '/projects' => 'projects#index'
   post '/projects' => 'projects#create'
