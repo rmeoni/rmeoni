@@ -14,7 +14,7 @@
 }
 
 .home .jumbotron h1 {
-	font-size: 4.5em;
+	font-size: 4em;
 	color: #fff;
 	padding-top: 160px;
 	text-shadow: 0px 2px 3px #333;
@@ -54,4 +54,11 @@
 
 .about p {
 	margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) { 
+	.home .jumbotron h1 {
+		font-size: 3em;
+	}
+
 }
