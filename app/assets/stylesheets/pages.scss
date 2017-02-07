@@ -38,13 +38,20 @@
 }
 
 .about {
-	margin: 15px 15px 30px 15px;
 	text-align: justify;
+	background-image: url("/images/triangles.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .about h1 {
-	color: #333;
-	margin-bottom: 30px;
+	color: #fff;
+	text-shadow: 0px 2px 3px #000;
+	margin-bottom: 70px;
 }
 
 .about .row {
@@ -53,6 +60,12 @@
 
 .about p {
 	margin-top: 0px;
+	color: #fff;
+	background-color: #000;
+	padding: 20px;
+	opacity: 0.9;
+	font-size: 1.2em;
+	font-family: georgia;
 }
 
 @media only screen and (max-width: 768px) { 

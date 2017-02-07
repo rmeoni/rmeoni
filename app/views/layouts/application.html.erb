@@ -70,10 +70,10 @@ src="https://www.facebook.com/tr?id=970327136433719&ev=PageView&noscript=1"
 				<li><%= link_to "About", '/about'%></li>
 				<li><%= link_to "Contact", '/contacts' %></li>
 				<% unless current_user %>
-				<li id="span"><%= link_to "Login", '/login' %></li>
+				<li id="login"><%= link_to "Login", '/login' %></li>
 				<% end %>
 				<% if current_user %>
-				<li id="span"> <%=link_to 'Logout', logout_path, method: 'delete' %></li>
+				<li id="logout"> <%=link_to 'Logout', logout_path, method: 'delete' %></li>
 				<% end %>
 			</ul>
 			<i class="material-icons" id="icon-menu">&#xE5D2;</i>

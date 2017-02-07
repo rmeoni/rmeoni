@@ -2,6 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.contact h1 {
+	text-align: center;
+}
+
+.contact .jumbotron {
+	background-image: url("/images/ny/SAM_0770.jpg");
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.contact .jumbotron h1 {
+	font-size: 4em;
+	color: #fff;
+	text-shadow: 0px 2px 3px #000;
+	text-align: center;
+	margin-top: 120px;
+}
+
 /*To hide the nickname when sending a message*/
 .hidden { display: none; }
 
