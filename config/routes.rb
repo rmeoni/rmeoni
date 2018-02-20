@@ -34,7 +34,7 @@ resources "contacts", only: [:new, :create]
   delete '/logout' => 'sessions#destroy', as: :logout
 
   get '/about' => 'pages#about'
-
+  get '/catalogo-1' => 'pages#catalog'
 
   resources :photographs, only: [:destroy]
 

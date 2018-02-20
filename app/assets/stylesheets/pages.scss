@@ -68,6 +68,27 @@
 	font-family: georgia;
 }
 
+.catalog {
+	height: 400px;
+}
+
+.catalog h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#bs-over .catalog a {
+	text-align: center;
+	text-transform: uppercase;
+	border: 10px solid #000;
+	background-color: #000;
+	color: #fff;
+	font-family: arial;
+	margin-top: 40px;
+	font-size: 2em;
+
+}
+
 @media only screen and (max-width: 768px) { 
 	.home .jumbotron h1 {
 		font-size: 3em;
