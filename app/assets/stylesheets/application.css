@@ -252,7 +252,7 @@
 	height:30px;
 }
 
-.footer {
+#bs-over .footer {
 	height: 175px;
 	background-color: #000;
 	color: #fff;
@@ -260,7 +260,7 @@
 	margin-right: 0px;
 }
 
-.footer #sofilink {
+#bs-over .footer #sofilink {
 	text-align: center;
 	font-size: 1.2em;
 	margin-top: 20px;
