@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.home .jumbotron {
+#bs-over .home .jumbotron {
 	height: 600px;
 	background-image: url('/images/SAM_0304.jpg');
 	background-size: cover;
@@ -11,6 +11,7 @@
 	background-repeat: no-repeat;
 	margin-bottom:0px;
 	text-align: center;
+	border-top: 0px;
 }
 
 .home .jumbotron h1 {
@@ -94,6 +95,10 @@
 @media only screen and (max-width: 768px) { 
 	.home .jumbotron h1 {
 		font-size: 3em;
+	}
+
+	#bs-over .home .jumbotron {
+		margin-top: -20px;
 	}
 
 }
