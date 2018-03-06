@@ -35,6 +35,7 @@ resources "contacts", only: [:new, :create]
 
   get '/about' => 'pages#about'
   get '/catalogo-1' => 'pages#catalog'
+  get '/collections' => 'pages#catalog'
 
   resources :photographs, only: [:destroy]
 
