@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get '/' => 'pages#home', as: :root
+  get '/djay-recordings' => 'pages#music'
   get '/projects/:id/edit' => 'projects#edit', as: :edit_project
   get '/projects' => 'projects#index'
   post '/projects' => 'projects#create'
